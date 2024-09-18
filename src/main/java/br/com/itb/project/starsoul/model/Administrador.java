@@ -11,7 +11,7 @@ public class Administrador {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable=false, length=6)
+    @Column(nullable = false)
     private int codAdmin;
 
     @Column(nullable = false, length = 100)
@@ -20,7 +20,7 @@ public class Administrador {
     @Column(nullable = false, length = 25)
     private String senha;
 
-    @Column(nullable=false)
+    @Column(nullable=true)
     private boolean status;
 
     @Transient
