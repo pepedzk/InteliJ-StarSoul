@@ -26,7 +26,7 @@ public class Usuario {
 
 
     @Transient
-    private String mensagemErro = "";
+    private String mensagemErro = "teste";
 
     @Transient
     private boolean isValid = true;
